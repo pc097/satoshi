@@ -13,8 +13,18 @@ public class Menu {
             case 2:
                 Estatistica2015.tipo();
                 break;
-            default:
+            case 3 :
+                Estatistica2015.qtdAcid();
                 break;
+            case 4 :
+                Estatistica2015.nome();
+                break;
+            case 5 :
+                Estatistica2015.media();
+                break;
+            case 9 :
+                System.exit(0);
+                break;    
         }
     }
 }

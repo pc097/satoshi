@@ -2,18 +2,18 @@ package SistemaTransito;
 
 public class Estatistica {
 
-    int codCidade;
     String nomeCidade;
+    int codCidade;
     int qtdAcidentes;
     int tipoVeiculo;
 
     Estatistica() {
-        this(0, "", 0, 0);
+        this("", 0, 0, 0);
     }
 
-    Estatistica(int codcidadeestatistica, String nomecidadeEstatistica, int qtdacidentesEstatistica, int tipoveiculoEstatistica) {
-        codCidade = codcidadeestatistica;
+    Estatistica(String nomecidadeEstatistica, int codcidadeestatistica ,int qtdacidentesEstatistica, int tipoveiculoEstatistica) {
         nomeCidade = nomecidadeEstatistica;
+        codCidade = codcidadeestatistica;
         qtdAcidentes = qtdacidentesEstatistica;
         tipoVeiculo = tipoveiculoEstatistica;
     }
